@@ -1,4 +1,6 @@
-### study-of-basic-gates
+### EX-1 <p align="center"><b>IMPLEMENTATION OF BASIC LOGIC GATES    </b>   
+
+**DATE:**
 
 **AIM:** 
 
@@ -63,32 +65,134 @@ Y= A⊕B
 
 
 **PROGRAM**
-
-Program for logic gates and verify its truth table in quartus using Verilog programming
 Developed by: Jesubalan A.
 RegisterNumber: 212223240060
-```
-module ex01(a,b,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
-input a,b;
-output Y1,Y2,Y3,Y4,Y5,Y6,Y7;
-and(Y1,a,b);
-or(Y2,a,b);
-not(Y3,a);
-xor(Y4,a,b);
-nand(Y5,a,b);
-nor(Y6,a,b);
-xnor(Y7,a,b);
-endmodule
-```
- 
+
+## AND GATE 
+
+**PROGRAM**
+
+![Screenshot 2024-04-10 142913](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/a8e0cd25-1b76-4d49-bcbd-e6db480f1636)
+
 **Logic symbol & Truthtable**
-![312322872-716b15ce-c8de-41ea-88b9-8af006cea701](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/193b6f4c-93fc-49c5-9ec2-cf966128477b)
 
-**RTL realization Output:** 
-![312372136-71d74c96-af9f-4e96-b3ba-49ad8ee8bf70](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/98218aff-4e3a-4cb3-ac86-3ed5854ec9eb)
+![319458613-e333ab21-f7bf-4aa0-8a6b-f69c57451122](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/2b5d8051-685d-4c4a-9d6c-801fb32699ec)
 
-**RTL**
-![312371234-8826c4ba-a2ab-45f6-909d-84484dc79a27](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/7fdb7ce6-27d0-432e-97b0-e233f7c41565)
+**RTL:** 
+
+![Screenshot 2024-04-10 142943](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/c079cb96-219d-4bbf-becf-d64dbca0a257)
+
+**RTL realization Output**
+
+![Screenshot 2024-04-10 142822](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/27f19c72-48e4-4ad8-bb28-0fc9aee4df76)
+
+## OR GATE
+
+**PROGRAM**
+
+![Screenshot 2024-04-10 144038](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/7d1e6de3-f784-4367-89c3-05ee1bdff7cc)
+
+**Logic symbol & Truthtable**
+
+![319458650-7c6f142b-46a3-4e36-a4c7-76008d1b9832](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/374a911e-70ec-42b1-b190-a20669f539da)
+
+**RTL:** 
+
+![Screenshot 2024-04-10 144052](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/65d24ccf-ec36-4f93-baea-b02aab4878e7)
+
+**RTL realization Output**
+
+![Screenshot 2024-04-10 144504](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/09f04f41-781b-4b03-81d8-be475b7181c5)
+
+## NOT GATE
+
+**PROGRAM**
+
+![Screenshot 2024-04-10 204936](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/cb86e1ce-5f4e-4e5f-ad03-b56c304e44c3)
+
+**Logic symbol & Truthtable**
+
+![319459057-19d8cb59-7eab-4f7b-a45d-296947b83146](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/10bea093-64d3-4b90-aecf-e83971840dcb)
+
+**RTL:** 
+
+![Screenshot 2024-04-10 204959](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/dd3b3569-c103-42fd-965d-e3c7eb0f3578)
+
+**RTL realization Output**
+
+![Screenshot 2024-04-10 205151](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/b7ba3b58-8207-4ebd-9d2e-81289708d01e)
+
+## NAND GATE
+
+**PROGRAM**
+
+![Screenshot 2024-04-10 213505](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/d5820b88-c3df-4521-a6aa-78cc5a2f3146)
+
+**Logic symbol & Truthtable**
+
+![319458770-a0137613-8911-48f3-b17b-8f2829320975](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/3ebe517f-edf4-49fc-b51d-8caf4735f991)
+
+**RTL:** 
+
+![Screenshot 2024-04-10 213528](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/76351623-5401-4696-bd5a-9a82196dd4b2)
+
+**RTL realization Output**
+
+![Screenshot 2024-04-10 213702](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/b4657d61-b2de-4023-ad6c-66eabd545ac1)
+
+## NOR GATE
+
+**PROGRAM**
+
+![Screenshot 2024-04-10 210719](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/fae9e945-2095-4314-8ec3-a0d51fa6b930)
+
+**Logic symbol & Truthtable**
+
+![319458802-eb93295d-0d69-4b8f-bedd-99ec4f99c4aa](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/0d929c8e-6dc2-4e64-9c02-3312e0b2f93b)
+
+**RTL:** 
+
+![Screenshot 2024-04-10 210802](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/904cdba9-adb5-4d9b-81c8-4ddc9773164f)
+
+**RTL realization Output**
+
+![Screenshot 2024-04-10 210946](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/19bae2d8-1d65-41fc-ae56-4bb2a584ac1c)
+
+## EX-OR GATE
+
+**PROGRAM**
+![Screenshot 2024-04-10 210033](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/fb46f1fa-9c95-4fbd-95b2-3e3c45820579)
+
+
+**Logic symbol & Truthtable**
+
+![319458857-dfcd8129-dc9c-47bf-9dc1-8d34142f0f81](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/0004fb3e-04b9-4576-aae0-f15c0892aded)
+
+**RTL:** 
+
+![Screenshot 2024-04-10 210055](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/2464a092-baac-4f0f-b513-c9215716c623)
+
+**RTL realization Output**
+
+![Screenshot 2024-04-10 210237](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/5072be06-9491-4add-a231-2285bd549eca)
+
+## EX-NOR GATE
+
+**PROGRAM**
+
+![Screenshot 2024-04-10 211635](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/e2b3c19d-6c68-457e-ae55-f5fa37438d3f)
+
+**Logic symbol & Truthtable**
+
+![319458896-ed25b34e-8a78-4fd1-9b9b-86894a498f7d](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/0bba7e42-3241-476d-ba93-1d1d6cd11e43)
+
+**RTL:** 
+
+![Screenshot 2024-04-10 211652](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/910f92f7-781d-4b92-96e2-a1f4cb0d5c1f)
+
+**RTL realization Output**
+
+![Screenshot 2024-04-10 212754](https://github.com/Jesubalan19/study-of-basic-gates/assets/144979294/345d88d1-fb23-4819-9540-65c94354d274)
 
 **Result:**
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
